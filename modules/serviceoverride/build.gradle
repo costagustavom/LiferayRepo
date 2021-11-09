@@ -1,7 +1,0 @@
-dependencies {
-	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
-	// https://mvnrepository.com/artifact/org.mockito/mockito-all
-	compileOnly group: 'org.mockito', name: 'mockito-all', version: '1.10.19'
-	
-
-}
