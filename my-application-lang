@@ -1,0 +1,7 @@
+my-application-lang/
+    bnd.bnd
+    src/
+        main/
+            resources/
+                content/
+                    Language.properties
