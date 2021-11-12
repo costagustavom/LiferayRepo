@@ -1,0 +1,8 @@
+Bundle-Name: serviceoverride
+Bundle-SymbolicName: serviceoverride
+Bundle-Version: 1.0.0
+Export-Package: serviceoverride
+Web-ContextPath: /serviceoverride
+-metatype: *
+-plugin.bundle: com.liferay.ant.bnd.resource.bundle.ResourceBundleLoaderAnalyzerPlugin
+-sources: true
