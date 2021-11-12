@@ -9,6 +9,7 @@ dependencies {
 	compileOnly group: "org.osgi", name: "org.osgi.service.component.annotations"
 	compileOnly 'com.liferay:com.liferay.configuration.admin.api'
     compile group: "biz.aQute.bnd", name: "biz.aQute.bndlib", version: "3.1.0"
+    compileOnly group: 'org.mockito', name: 'mockito-all', version: '1.10.19'
     
 	
 
