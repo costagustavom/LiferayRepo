@@ -18,12 +18,12 @@ import org.osgi.service.component.annotations.Component;
 import org.osgi.service.component.annotations.Modified;
 import org.osgi.service.component.annotations.Reference;
 
-import configuration.propertie.DomainConfiguration;
+import configuration.properties.DomainConfiguration;
 
 @Component(
 		immediate = true, 
 		property = { "service.ranking:Integer=100" }, 
-		configurationPid = "com.liferay.dynamic.data.mapping.form.web.configuration.DomainConfiguration",
+		configurationPid = "configuration.properties.DomainConfiguration",
 		service = ServiceWrapper.class
 		)
 public class UserLocalServiceOverride extends UserLocalServiceWrapper {

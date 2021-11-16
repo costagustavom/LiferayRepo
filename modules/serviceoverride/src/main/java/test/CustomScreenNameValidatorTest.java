@@ -11,7 +11,7 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.runners.MockitoJUnitRunner;
 
-import configuration.propertie.DomainConfiguration;
+import configuration.properties.DomainConfiguration;
 import serviceoverride.CustomScreenNameValidator;
 
 @RunWith(MockitoJUnitRunner.class)

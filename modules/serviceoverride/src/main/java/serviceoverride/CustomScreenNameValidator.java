@@ -18,13 +18,13 @@ import org.osgi.service.component.annotations.Activate;
 import org.osgi.service.component.annotations.Component;
 import org.osgi.service.component.annotations.Modified;
 
-import configuration.propertie.DomainConfiguration;
+import configuration.properties.DomainConfiguration;
 
 @Component(immediate = true, 
 	property = {
 		"service.ranking:Integer=100"
 	}, 
-	configurationPid = "com.liferay.dynamic.data.mapping.form.web.configuration.DomainConfiguration",
+	configurationPid = "configuration.properties.DomainConfiguration",
 	service = ScreenNameValidator.class
 	)
 public class CustomScreenNameValidator implements ScreenNameValidator {
